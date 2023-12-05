@@ -12,6 +12,14 @@ export class MenuComponent {
     constructor(){
 
     }
+    check:boolean = false;
+    Checar(){
+        this.check = document.querySelector('.visible > img[src="./assets/icons/stop.png"]') == null;
+        if(!this.check)
+        {
+            alert("É recomendado que você pare a música antes.")
+        }
+    }
     MostrarMenuLateral(){
         const menuLateralPainel = document.querySelector(".menu-lateral-painel");
         menuLateralPainel?.classList.remove("invisible");

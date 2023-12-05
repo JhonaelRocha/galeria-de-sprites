@@ -2,9 +2,9 @@
 <div class="container">
     <div class="logo"><img src="./assets/img/klav.png" alt=""></div>
     <div class="menu">
-        <div><a href="">Sprites</a></div>
-        <div><a href="">Músicas</a></div>
-        <div><a href="">Sons</a></div>
+        <div (mouseover)="Checar()"><a routerLink="sprites">Sprites</a></div>
+        <div (mouseover)="Checar()"><a routerLink="musicas">Músicas</a></div>
+        <div (mouseover)="Checar()"><a routerLink="sons">Sons</a></div>
     </div>
     <div class="menu-lateral"><img src="./assets/img/hamburguer-icon.png" (click)="MostrarMenuLateral()"></div>
 </div>
@@ -14,7 +14,7 @@
     </div>
     <div class="opcoes">
         <div><img src="./assets/logos/github.png" width="25px">GitHub</div>
-        <div><img src="./assets/logos/youtube.png" width="25px">Youtube</div>
+        <div onclick="window.location.href='https://www.youtube.com/@Klavoon'"><img src="./assets/logos/youtube.png" width="25px">Youtube</div>
         <div><img src="./assets/logos/sobre.png" width="25px">Sobre</div>
     </div>
     <div class="menu-footer">

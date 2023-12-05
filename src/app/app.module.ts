@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { SpriteCardComponent } from './components/sprite-card/sprite-card.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SpritesComponent } from './pages/sprites/sprites.component';
+import { MusicasComponent } from './pages/musicas/musicas.component';
+import { MusicaCardComponent } from './components/musica-card/musica-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     SpriteCardComponent,
-    HomeComponent
+    HomeComponent,
+    SpritesComponent,
+    MusicasComponent,
+    MusicaCardComponent
   ],
   imports: [
     BrowserModule,

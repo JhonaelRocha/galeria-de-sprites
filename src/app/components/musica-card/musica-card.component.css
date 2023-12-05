@@ -27,8 +27,8 @@
     background-color: #1d1d1d;
     color: #fff;
 }
-.container > .sprite{
-    height: 70%;
+.container > .musica{
+    height: 60%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -39,15 +39,12 @@
     border-radius 0.5s;
     border-radius: 5px;
 }
-.container > .sprite:hover{
-    border-radius: 0;
-    background-color: #d1d1d1;
-    cursor: pointer;
-}
 .container > .download{
     width: 100%;
-    text-align: center;
-    border-radius: 5px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container > .download > a{
     text-decoration: none;
@@ -57,4 +54,33 @@
 .container > .download > a:hover{
     color: #02e1ff;
     
+}
+
+.container > .musica > .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > .musica > .button > img{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > .musica > .button > img:hover{
+    cursor: pointer;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.invisible {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
 }

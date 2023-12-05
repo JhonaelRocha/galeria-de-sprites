@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="title {{titulo}}">
+        {{titulo}}
+    </div>
+    <div class="musica">
+        <div id="{{id+'play'}}" class="button visible" (click)="playAudio()">
+            <img src="./assets/icons/play.png">
+        </div>
+        <div id="{{id+'stop'}}" class="button invisible" (click)="stopAudio()">
+            <img src="./assets/icons/stop.png">
+        </div>
+    </div>
+    <div class="download">
+        <a href="./assets/musicas/{{audioSrc}}" download="{{titulo}}">Download</a>
+    </div>
+</div>
