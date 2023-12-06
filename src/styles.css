@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,4 +7,16 @@
 }
 body{
     background-color: #57488f; 
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+
+  
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color:#02E1FF;
 }

@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SpritesComponent } from './pages/sprites/sprites.component';
 import { MusicasComponent } from './pages/musicas/musicas.component';
 import { MusicaCardComponent } from './components/musica-card/musica-card.component';
+import { NewsCardComponent } from './components/news-card/news-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MusicaCardComponent } from './components/musica-card/musica-card.compon
     HomeComponent,
     SpritesComponent,
     MusicasComponent,
-    MusicaCardComponent
+    MusicaCardComponent,
+    NewsCardComponent
   ],
   imports: [
     BrowserModule,
